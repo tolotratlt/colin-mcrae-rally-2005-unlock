@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="patch05.exe"/>
+    <OBJFILES value="patch05.obj Unit1.obj"/>
+    <RESFILES value="patch05.res winxp.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="BoutonsCouleur.lib vclx.lib lmd50se_B6.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib lmd50se_B6.lib vclx.lib BoutonsCouleur.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi CPortLibCB6.bpi DlPrinter.bpi DLprinterOCX.bpi 
+      BoutonsCouleur.bpi dclusr.bpi lmd50se_B6.bpi RVORB.bpi OpenWirePkgCB6.bpi 
+      OpenWireLabPkgCB6.bpi SignalLabBasicPkgCB6.bpi AudioLabBasicPkgCB6.bpi 
+      AudioLabPkgCB6.bpi SignalLabScopePkgCB6.bpi SignalLabPkgCB6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="patch05.cpp"/>
+    <INCLUDEPATH value="$(BCB)\LIB\lmd50\MAIN;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;F:\Test\Builder6\PatchColin05;&quot;C:\Documents and Settings\Tolotra&quot;;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Imports\RxLib;$(BCB)\OpenWire;$(BCB)\OpenWire\OpenWireLabDemo;$(BCB)\LabPacks"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;F:\Test\Builder6\PatchColin05;$(BCB)\LIB\lmd50\MAIN;$(BCB)\Projects\Lib;$(BCB)\Lib;$(BCB)\Imports\RxLib;$(BCB)\Lib\obj;$(BCB)\LabPacks;$(BCB)\LabPacks\IPPLib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\LIB\lmd50\MAIN -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -IF:\Test\Builder6\PatchColin05 -I&quot;C:\Documents and Settings\Tolotra&quot; 
+      -I$(BCB)\include -I$(BCB)\include\vcl -I$(BCB)\Imports\RxLib 
+      -I$(BCB)\OpenWire -I$(BCB)\OpenWire\OpenWireLabDemo -I$(BCB)\LabPacks 
+      -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -RT- -fp -ff -X -a8 -5 -b- -k- -vi 
+      -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$U -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -H:0xF00000 -B:0xF00000 -S:0xF00000 -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="patch05.res" FORMNAME="" UNITNAME="patch05.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="patch05.cpp" FORMNAME="" UNITNAME="patch05" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="winxp.res" FORMNAME="" UNITNAME="winxp.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=1
+Private=1
+DLL=0
+Locale=1036
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=tlt Company
+FileDescription=Patch pour colin 2005
+FileVersion=1.0.0.0
+InternalName=CMR5Patcher
+LegalCopyright=Copyright © 2006
+LegalTrademarks=
+OriginalFilename=CMR5Patcher.exe
+ProductName=CMR5Patcher.exe
+ProductVersion=1.0.0.0
+Comments=By Tolotra [TLT]\nmail : tlt.xxx@lekiller.com
+SpecialBuild=
+PrivateBuild=
+
+[HistoryLists\hlIncludePath]
+Count=7
+Item0=$(BCB)\LIB\lmd50\MAIN;C:\Program Files\Borland\CBuilder6\Projects;F:\Test\Builder6\PatchColin05;C:\Documents and Settings\Tolotra;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Imports\RxLib;$(BCB)\OpenWire;$(BCB)\OpenWire\OpenWireLabDemo;$(BCB)\LabPacks
+Item1=C:\Documents and Settings\Tolotra;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Imports\RxLib
+Item2=C:\Documents and Settings\Tolotra;F:\Test\Builder6\HexEdit;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Imports\RxLib
+Item3=$(BCB)\Lib\obj$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Imports\RxLib;$(BCB)\Lib
+Item4=$(BCB)\Lib\obj$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Imports\RxLib;$(BCB)\Lib;
+Item5=$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Imports\RxLib
+Item6=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=8
+Item0=C:\Program Files\Borland\CBuilder6\Projects;F:\Test\Builder6\PatchColin05;$(BCB)\LIB\lmd50\MAIN;$(BCB)\Projects\Lib;$(BCB)\Lib;$(BCB)\Imports\RxLib;$(BCB)\Lib\obj;$(BCB)\LabPacks;$(BCB)\LabPacks\IPPLib
+Item1=$(BCB)\LIB\lmd50\MAIN;$(BCB)\Projects\Lib;$(BCB)\Lib;$(BCB)\Imports\RxLib;$(BCB)\Lib\obj
+Item2=$(BCB)\LIB\lmd50\MAIN;$(BCB)\Projects\Lib;$(BCB)\Lib;$(BCB)\Imports\RxLib\;$(BCB)\Lib\obj
+Item3=$(BCB)\LIB\lmd50\MAIN;$(BCB)\Projects\Lib;$(BCB)\Lib;$(BCB)\Imports\RxLib
+Item4=C:\Documents and Settings\Tolotra;F:\Test\Builder6\HexEdit;$(BCB)\LIB\lmd50\MAIN;$(BCB)\Projects\Lib;$(BCB)\Lib;$(BCB)\Imports\RxLib
+Item5=$(BCB)\Imports\RxLib
+Item6=;$(BCB)\Imports\RxLib
+Item7=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
