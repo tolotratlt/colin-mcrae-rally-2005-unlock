@@ -10,7 +10,8 @@ Enable cheats on CMR 2005 (pc version) without entering them
 
 # History
 v 1.0.0 (13/01/2006), originally made with C++ Builder 6
-Program language : French
+
+Executable language : French
 
 # Note
 Not tested but can be compiled with the latest C++ Builder community edition.
